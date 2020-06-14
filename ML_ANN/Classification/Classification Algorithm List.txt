@@ -1,0 +1,6 @@
+01. LogisticRegression
+02. KNeighborsClassifier
+03. RandomForestClassifier
+04. SVM (SupportVectorMachine)
+05. SGDClassifier
+06. ANN

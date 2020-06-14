@@ -1,0 +1,8 @@
+Test Project on 
+
+01. LinearRegression
+02. DecisionTreeRegressor
+03. RandomForestRegressor
+04. SVR (SupportVectorRegressor)
+05. XGBRegressor
+06. ANN
