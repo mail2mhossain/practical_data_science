@@ -2,7 +2,6 @@
 # python detect_drowsiness.py --conf config/config.json
 
 # import the necessary packages
-from pyimagesearch.utils import Conf
 from imutils.video import VideoStream
 from imutils import face_utils
 from datetime import datetime
