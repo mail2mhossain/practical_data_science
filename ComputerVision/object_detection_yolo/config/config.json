@@ -1,0 +1,16 @@
+{
+	// path to yolo weights and labels
+	"yolo_path": "yolo-coco",
+
+	// minimum confidence to filter out weak detections
+	"confidence": 0.5,
+
+	// non-maxima suppression threshold
+	"threshold": 0.3,
+
+
+	// list of classes being considered in the surveillance (all
+	// other classes the object detector was trained on will be
+	// ignored)
+	"consider": ["person", "car", "truck", "dog", "knife", "cat", "bird", "bicycle", "motorbike"]
+}
