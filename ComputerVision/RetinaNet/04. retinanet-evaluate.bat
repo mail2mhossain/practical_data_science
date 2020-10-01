@@ -1,0 +1,1 @@
+retinanet-evaluate csv weapons/retinanet_test.csv weapons/retinanet_classes.csv output.h5

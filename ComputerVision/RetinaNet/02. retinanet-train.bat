@@ -1,0 +1,1 @@
+retinanet-train --batch-size 2 --steps 1309 --epochs 50 --weights weapons/resnet50_coco_best_v2.1.0.h5 --snapshot-path weapons/snapshots csv weapons/retinanet_train.csv weapons/retinanet_classes.csv

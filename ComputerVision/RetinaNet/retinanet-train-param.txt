@@ -1,0 +1,17 @@
+In particular, you’ll need to supply the:
+• Batch size
+• Number of steps per epoch
+• Total number of epochs to train for
+• Path to the COCO weights file (optional, only supplied when fine-tuning)
+• Path to the output snapshot directory to store serialized model weights after each epoch
+• And finally, the paths to the training and classes CSV files
+
+
+Once you have determined your batch size, you need to compute the number of steps per epoch.
+This can be done by counting the number of annotations in your retinanet_train.csv file: 
+
+The wc command reveals their are 2,618 lines in the retinanet_train.csv file. Since each
+line represents a single annotation, there are thus 2,618 annotations in the file. With a batch size of
+four, I can now compute the number of steps per epoch:
+
+2618/2 = 1309

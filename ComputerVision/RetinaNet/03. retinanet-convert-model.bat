@@ -1,0 +1,1 @@
+retinanet-convert-model weapons/snapshots/resnet50_csv_50.h5 output.h5
