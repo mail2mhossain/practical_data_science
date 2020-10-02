@@ -1,0 +1,23 @@
+Feature Descriptors
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector SURF --extractor SIFT
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector SURF --extractor RootSIFT
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector SURF --extractor SURF
+
+
+Binary Descriptors
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector ORB --extractor ORB --matcher BruteForce-Hamming
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector FAST --extractor BRIEF --matcher BruteForce-Hamming
+
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector BRISK --extractor BRISK --matcher BruteForce-Hamming
+
+
+python draw_matches.py --first jp_01.png --second jp_02.png --detector FAST --extractor FREAK --matcher BruteForce-Hamming
+
+
+python draw_matches.py --first feature_matching_01.png --second feature_matching_02.png --detector FAST --extractor FREAK --matcher BruteForce-Hamming
