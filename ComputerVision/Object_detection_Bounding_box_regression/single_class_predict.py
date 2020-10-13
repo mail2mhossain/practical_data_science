@@ -4,7 +4,7 @@
 # python predict.py --input output/test_images.txt
 
 # import the necessary packages
-from pyimagesearch import config
+from pyimagesearch import single_class_config
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.models import load_model
@@ -36,12 +36,12 @@ if "text/plain" == filetype:
 	for f in filenames:
 		# construct the full path to the image filename and then
 		# update our image paths list
-		p = os.path.sep.join([config.IMAGES_PATH, f])
+		p = os.path.sep.join([single_class_config.IMAGES_PATH, f])
 		imagePaths.append(p)
 
 # load our trained bounding box regressor from disk
 print("[INFO] loading object detector...")
-model = load_model(config.MODEL_PATH)
+model = load_model(single_class_config.MODEL_PATH)
 # loop over the images that we'll be testing using our bounding box
 # regression model
 for imagePath in imagePaths:

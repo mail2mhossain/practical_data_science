@@ -4,7 +4,7 @@
 
 
 # import the necessary packages
-from pyimagesearch import config
+from pyimagesearch import single_class_config
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras.layers import Flatten
 from tensorflow.keras.layers import Dense
@@ -21,7 +21,7 @@ import os
 
 # load the contents of the CSV annotations file
 print("[INFO] loading dataset...")
-rows = open(config.ANNOTS_PATH).read().strip().split("\n")
+rows = open(single_class_config.ANNOTS_PATH).read().strip().split("\n")
 # initialize the list of data (images), our target output predictions
 # (bounding box coordinates), along with the filenames of the
 # individual images
@@ -33,11 +33,11 @@ filenames = []
 for row in rows[1:]:
 	# break the row into the filename and bounding box coordinates
 	row = row.split(",")
-	(filename, startX, startY, endX, endY) = row
+	(filename, startX, startY, endX, endY,class_name) = row
 
     # derive the path to the input image, load the image (in OpenCV
 	# format), and grab its dimensions
-	imagePath = os.path.sep.join([config.IMAGES_PATH, filename])
+	imagePath = os.path.sep.join([single_class_config.IMAGES_PATH, filename])
 	image = cv2.imread(imagePath)
 	(h, w) = image.shape[:2]
 	# scale the bounding box coordinates relative to the spatial
@@ -70,7 +70,7 @@ split = train_test_split(data, targets, filenames, test_size=0.10,
 # write the testing filenames to disk so that we can use then
 # when evaluating/testing our bounding box regressor
 print("[INFO] saving testing filenames...")
-f = open(config.TEST_FILENAMES, "w")
+f = open(single_class_config.TEST_FILENAMES, "w")
 f.write("\n".join(testFilenames))
 f.close()
 
@@ -96,7 +96,7 @@ model = Model(inputs=vgg.input, outputs=bboxHead)
 
 # initialize the optimizer, compile the model, and show the model
 # summary
-opt = Adam(lr=config.INIT_LR)
+opt = Adam(lr=single_class_config.INIT_LR)
 model.compile(loss="mse", optimizer=opt)
 print(model.summary())
 # train the network for bounding box regression
@@ -104,15 +104,15 @@ print("[INFO] training bounding box regressor...")
 H = model.fit(
 	trainImages, trainTargets,
 	validation_data=(testImages, testTargets),
-	batch_size=config.BATCH_SIZE,
-	epochs=config.NUM_EPOCHS,
+	batch_size=single_class_config.BATCH_SIZE,
+	epochs=single_class_config.NUM_EPOCHS,
 	verbose=1)
 
 # serialize the model to disk
 print("[INFO] saving object detector model...")
-model.save(config.MODEL_PATH, save_format="h5")
+model.save(single_class_config.MODEL_PATH, save_format="h5")
 # plot the model training history
-N = config.NUM_EPOCHS
+N = single_class_config.NUM_EPOCHS
 plt.style.use("ggplot")
 plt.figure()
 plt.plot(np.arange(0, N), H.history["loss"], label="train_loss")
@@ -121,5 +121,5 @@ plt.title("Bounding Box Regression Loss on Training Set")
 plt.xlabel("Epoch #")
 plt.ylabel("Loss")
 plt.legend(loc="lower left")
-plt.savefig(config.PLOT_PATH)
+plt.savefig(single_class_config.PLOT_PATH)
 
