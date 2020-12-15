@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/z/MHossain_OneDrive/OneDrive/Data%20Science/Practical_Data_Science/practical_data_science/MLflow/mlruns/0/1b40e01d0ede4faeb7905a217c61ffa7/artifacts
+end_time: 1606988973651
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 1b40e01d0ede4faeb7905a217c61ffa7
+run_uuid: 1b40e01d0ede4faeb7905a217c61ffa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1606988209218
+status: 3
+tags: []
+user_id: mhossain
