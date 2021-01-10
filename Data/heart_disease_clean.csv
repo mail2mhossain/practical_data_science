@@ -1,0 +1,304 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,num
+63.0,male,typical angina,145.0,233.0,True,2.0,150.0,no,2.3,downsloping,0.0,6.0,0
+67.0,male,asymptomatic,160.0,286.0,False,2.0,108.0,yes,1.5,flat,3.0,3.0,1
+67.0,male,asymptomatic,120.0,229.0,False,2.0,129.0,yes,2.6,flat,2.0,7.0,1
+37.0,male,non-anginal pain,130.0,250.0,False,0.0,187.0,no,3.5,downsloping,0.0,3.0,0
+41.0,female,atypical angina,130.0,204.0,False,2.0,172.0,no,1.4,upsloping,0.0,3.0,0
+56.0,male,atypical angina,120.0,236.0,False,0.0,178.0,no,0.8,upsloping,0.0,3.0,0
+62.0,female,asymptomatic,140.0,268.0,False,2.0,160.0,no,3.6,downsloping,2.0,3.0,1
+57.0,female,asymptomatic,120.0,354.0,False,0.0,163.0,yes,0.6,upsloping,0.0,3.0,0
+63.0,male,asymptomatic,130.0,254.0,False,2.0,147.0,no,1.4,flat,1.0,7.0,1
+53.0,male,asymptomatic,140.0,203.0,True,2.0,155.0,yes,3.1,downsloping,0.0,7.0,1
+57.0,male,asymptomatic,140.0,192.0,False,0.0,148.0,no,0.4,flat,0.0,6.0,0
+56.0,female,atypical angina,140.0,294.0,False,2.0,153.0,no,1.3,flat,0.0,3.0,0
+56.0,male,non-anginal pain,130.0,256.0,True,2.0,142.0,yes,0.6,flat,1.0,6.0,1
+44.0,male,atypical angina,120.0,263.0,False,0.0,173.0,no,0.0,upsloping,0.0,7.0,0
+52.0,male,non-anginal pain,172.0,199.0,True,0.0,162.0,no,0.5,upsloping,0.0,7.0,0
+57.0,male,non-anginal pain,150.0,168.0,False,0.0,174.0,no,1.6,upsloping,0.0,3.0,0
+48.0,male,atypical angina,110.0,229.0,False,0.0,168.0,no,1.0,downsloping,0.0,7.0,1
+54.0,male,asymptomatic,140.0,239.0,False,0.0,160.0,no,1.2,upsloping,0.0,3.0,0
+48.0,female,non-anginal pain,130.0,275.0,False,0.0,139.0,no,0.2,upsloping,0.0,3.0,0
+49.0,male,atypical angina,130.0,266.0,False,0.0,171.0,no,0.6,upsloping,0.0,3.0,0
+64.0,male,typical angina,110.0,211.0,False,2.0,144.0,yes,1.8,flat,0.0,3.0,0
+58.0,female,typical angina,150.0,283.0,True,2.0,162.0,no,1.0,upsloping,0.0,3.0,0
+58.0,male,atypical angina,120.0,284.0,False,2.0,160.0,no,1.8,flat,0.0,3.0,1
+58.0,male,non-anginal pain,132.0,224.0,False,2.0,173.0,no,3.2,upsloping,2.0,7.0,1
+60.0,male,asymptomatic,130.0,206.0,False,2.0,132.0,yes,2.4,flat,2.0,7.0,1
+50.0,female,non-anginal pain,120.0,219.0,False,0.0,158.0,no,1.6,flat,0.0,3.0,0
+58.0,female,non-anginal pain,120.0,340.0,False,0.0,172.0,no,0.0,upsloping,0.0,3.0,0
+66.0,female,typical angina,150.0,226.0,False,0.0,114.0,no,2.6,downsloping,0.0,3.0,0
+43.0,male,asymptomatic,150.0,247.0,False,0.0,171.0,no,1.5,upsloping,0.0,3.0,0
+40.0,male,asymptomatic,110.0,167.0,False,2.0,114.0,yes,2.0,flat,0.0,7.0,1
+69.0,female,typical angina,140.0,239.0,False,0.0,151.0,no,1.8,upsloping,2.0,3.0,0
+60.0,male,asymptomatic,117.0,230.0,True,0.0,160.0,yes,1.4,upsloping,2.0,7.0,1
+64.0,male,non-anginal pain,140.0,335.0,False,0.0,158.0,no,0.0,upsloping,0.0,3.0,1
+59.0,male,asymptomatic,135.0,234.0,False,0.0,161.0,no,0.5,flat,0.0,7.0,0
+44.0,male,non-anginal pain,130.0,233.0,False,0.0,179.0,yes,0.4,upsloping,0.0,3.0,0
+42.0,male,asymptomatic,140.0,226.0,False,0.0,178.0,no,0.0,upsloping,0.0,3.0,0
+43.0,male,asymptomatic,120.0,177.0,False,2.0,120.0,yes,2.5,flat,0.0,7.0,1
+57.0,male,asymptomatic,150.0,276.0,False,2.0,112.0,yes,0.6,flat,1.0,6.0,1
+55.0,male,asymptomatic,132.0,353.0,False,0.0,132.0,yes,1.2,flat,1.0,7.0,1
+61.0,male,non-anginal pain,150.0,243.0,True,0.0,137.0,yes,1.0,flat,0.0,3.0,0
+65.0,female,asymptomatic,150.0,225.0,False,2.0,114.0,no,1.0,flat,3.0,7.0,1
+40.0,male,typical angina,140.0,199.0,False,0.0,178.0,yes,1.4,upsloping,0.0,7.0,0
+71.0,female,atypical angina,160.0,302.0,False,0.0,162.0,no,0.4,upsloping,2.0,3.0,0
+59.0,male,non-anginal pain,150.0,212.0,True,0.0,157.0,no,1.6,upsloping,0.0,3.0,0
+61.0,female,asymptomatic,130.0,330.0,False,2.0,169.0,no,0.0,upsloping,0.0,3.0,1
+58.0,male,non-anginal pain,112.0,230.0,False,2.0,165.0,no,2.5,flat,1.0,7.0,1
+51.0,male,non-anginal pain,110.0,175.0,False,0.0,123.0,no,0.6,upsloping,0.0,3.0,0
+50.0,male,asymptomatic,150.0,243.0,False,2.0,128.0,no,2.6,flat,0.0,7.0,1
+65.0,female,non-anginal pain,140.0,417.0,True,2.0,157.0,no,0.8,upsloping,1.0,3.0,0
+53.0,male,non-anginal pain,130.0,197.0,True,2.0,152.0,no,1.2,downsloping,0.0,3.0,0
+41.0,female,atypical angina,105.0,198.0,False,0.0,168.0,no,0.0,upsloping,1.0,3.0,0
+65.0,male,asymptomatic,120.0,177.0,False,0.0,140.0,no,0.4,upsloping,0.0,7.0,0
+44.0,male,asymptomatic,112.0,290.0,False,2.0,153.0,no,0.0,upsloping,1.0,3.0,1
+44.0,male,atypical angina,130.0,219.0,False,2.0,188.0,no,0.0,upsloping,0.0,3.0,0
+60.0,male,asymptomatic,130.0,253.0,False,0.0,144.0,yes,1.4,upsloping,1.0,7.0,1
+54.0,male,asymptomatic,124.0,266.0,False,2.0,109.0,yes,2.2,flat,1.0,7.0,1
+50.0,male,non-anginal pain,140.0,233.0,False,0.0,163.0,no,0.6,flat,1.0,7.0,1
+41.0,male,asymptomatic,110.0,172.0,False,2.0,158.0,no,0.0,upsloping,0.0,7.0,1
+54.0,male,non-anginal pain,125.0,273.0,False,2.0,152.0,no,0.5,downsloping,1.0,3.0,0
+51.0,male,typical angina,125.0,213.0,False,2.0,125.0,yes,1.4,upsloping,1.0,3.0,0
+51.0,female,asymptomatic,130.0,305.0,False,0.0,142.0,yes,1.2,flat,0.0,7.0,1
+46.0,female,non-anginal pain,142.0,177.0,False,2.0,160.0,yes,1.4,downsloping,0.0,3.0,0
+58.0,male,asymptomatic,128.0,216.0,False,2.0,131.0,yes,2.2,flat,3.0,7.0,1
+54.0,female,non-anginal pain,135.0,304.0,True,0.0,170.0,no,0.0,upsloping,0.0,3.0,0
+54.0,male,asymptomatic,120.0,188.0,False,0.0,113.0,no,1.4,flat,1.0,7.0,1
+60.0,male,asymptomatic,145.0,282.0,False,2.0,142.0,yes,2.8,flat,2.0,7.0,1
+60.0,male,non-anginal pain,140.0,185.0,False,2.0,155.0,no,3.0,flat,0.0,3.0,1
+54.0,male,non-anginal pain,150.0,232.0,False,2.0,165.0,no,1.6,upsloping,0.0,7.0,0
+59.0,male,asymptomatic,170.0,326.0,False,2.0,140.0,yes,3.4,downsloping,0.0,7.0,1
+46.0,male,non-anginal pain,150.0,231.0,False,0.0,147.0,no,3.6,flat,0.0,3.0,1
+65.0,female,non-anginal pain,155.0,269.0,False,0.0,148.0,no,0.8,upsloping,0.0,3.0,0
+67.0,male,asymptomatic,125.0,254.0,True,0.0,163.0,no,0.2,flat,2.0,7.0,1
+62.0,male,asymptomatic,120.0,267.0,False,0.0,99.0,yes,1.8,flat,2.0,7.0,1
+65.0,male,asymptomatic,110.0,248.0,False,2.0,158.0,no,0.6,upsloping,2.0,6.0,1
+44.0,male,asymptomatic,110.0,197.0,False,2.0,177.0,no,0.0,upsloping,1.0,3.0,1
+65.0,female,non-anginal pain,160.0,360.0,False,2.0,151.0,no,0.8,upsloping,0.0,3.0,0
+60.0,male,asymptomatic,125.0,258.0,False,2.0,141.0,yes,2.8,flat,1.0,7.0,1
+51.0,female,non-anginal pain,140.0,308.0,False,2.0,142.0,no,1.5,upsloping,1.0,3.0,0
+48.0,male,atypical angina,130.0,245.0,False,2.0,180.0,no,0.2,flat,0.0,3.0,0
+58.0,male,asymptomatic,150.0,270.0,False,2.0,111.0,yes,0.8,upsloping,0.0,7.0,1
+45.0,male,asymptomatic,104.0,208.0,False,2.0,148.0,yes,3.0,flat,0.0,3.0,0
+53.0,female,asymptomatic,130.0,264.0,False,2.0,143.0,no,0.4,flat,0.0,3.0,0
+39.0,male,non-anginal pain,140.0,321.0,False,2.0,182.0,no,0.0,upsloping,0.0,3.0,0
+68.0,male,non-anginal pain,180.0,274.0,True,2.0,150.0,yes,1.6,flat,0.0,7.0,1
+52.0,male,atypical angina,120.0,325.0,False,0.0,172.0,no,0.2,upsloping,0.0,3.0,0
+44.0,male,non-anginal pain,140.0,235.0,False,2.0,180.0,no,0.0,upsloping,0.0,3.0,0
+47.0,male,non-anginal pain,138.0,257.0,False,2.0,156.0,no,0.0,upsloping,0.0,3.0,0
+53.0,female,non-anginal pain,128.0,216.0,False,2.0,115.0,no,0.0,upsloping,0.0,3.0,0
+53.0,female,asymptomatic,138.0,234.0,False,2.0,160.0,no,0.0,upsloping,0.0,3.0,0
+51.0,female,non-anginal pain,130.0,256.0,False,2.0,149.0,no,0.5,upsloping,0.0,3.0,0
+66.0,male,asymptomatic,120.0,302.0,False,2.0,151.0,no,0.4,flat,0.0,3.0,0
+62.0,female,asymptomatic,160.0,164.0,False,2.0,145.0,no,6.2,downsloping,3.0,7.0,1
+62.0,male,non-anginal pain,130.0,231.0,False,0.0,146.0,no,1.8,flat,3.0,7.0,0
+44.0,female,non-anginal pain,108.0,141.0,False,0.0,175.0,no,0.6,flat,0.0,3.0,0
+63.0,female,non-anginal pain,135.0,252.0,False,2.0,172.0,no,0.0,upsloping,0.0,3.0,0
+52.0,male,asymptomatic,128.0,255.0,False,0.0,161.0,yes,0.0,upsloping,1.0,7.0,1
+59.0,male,asymptomatic,110.0,239.0,False,2.0,142.0,yes,1.2,flat,1.0,7.0,1
+60.0,female,asymptomatic,150.0,258.0,False,2.0,157.0,no,2.6,flat,2.0,7.0,1
+52.0,male,atypical angina,134.0,201.0,False,0.0,158.0,no,0.8,upsloping,1.0,3.0,0
+48.0,male,asymptomatic,122.0,222.0,False,2.0,186.0,no,0.0,upsloping,0.0,3.0,0
+45.0,male,asymptomatic,115.0,260.0,False,2.0,185.0,no,0.0,upsloping,0.0,3.0,0
+34.0,male,typical angina,118.0,182.0,False,2.0,174.0,no,0.0,upsloping,0.0,3.0,0
+57.0,female,asymptomatic,128.0,303.0,False,2.0,159.0,no,0.0,upsloping,1.0,3.0,0
+71.0,female,non-anginal pain,110.0,265.0,True,2.0,130.0,no,0.0,upsloping,1.0,3.0,0
+49.0,male,non-anginal pain,120.0,188.0,False,0.0,139.0,no,2.0,flat,3.0,7.0,1
+54.0,male,atypical angina,108.0,309.0,False,0.0,156.0,no,0.0,upsloping,0.0,7.0,0
+59.0,male,asymptomatic,140.0,177.0,False,0.0,162.0,yes,0.0,upsloping,1.0,7.0,1
+57.0,male,non-anginal pain,128.0,229.0,False,2.0,150.0,no,0.4,flat,1.0,7.0,1
+61.0,male,asymptomatic,120.0,260.0,False,0.0,140.0,yes,3.6,flat,1.0,7.0,1
+39.0,male,asymptomatic,118.0,219.0,False,0.0,140.0,no,1.2,flat,0.0,7.0,1
+61.0,female,asymptomatic,145.0,307.0,False,2.0,146.0,yes,1.0,flat,0.0,7.0,1
+56.0,male,asymptomatic,125.0,249.0,True,2.0,144.0,yes,1.2,flat,1.0,3.0,1
+52.0,male,typical angina,118.0,186.0,False,2.0,190.0,no,0.0,flat,0.0,6.0,0
+43.0,female,asymptomatic,132.0,341.0,True,2.0,136.0,yes,3.0,flat,0.0,7.0,1
+62.0,female,non-anginal pain,130.0,263.0,False,0.0,97.0,no,1.2,flat,1.0,7.0,1
+41.0,male,atypical angina,135.0,203.0,False,0.0,132.0,no,0.0,flat,0.0,6.0,0
+58.0,male,non-anginal pain,140.0,211.0,True,2.0,165.0,no,0.0,upsloping,0.0,3.0,0
+35.0,female,asymptomatic,138.0,183.0,False,0.0,182.0,no,1.4,upsloping,0.0,3.0,0
+63.0,male,asymptomatic,130.0,330.0,True,2.0,132.0,yes,1.8,upsloping,3.0,7.0,1
+65.0,male,asymptomatic,135.0,254.0,False,2.0,127.0,no,2.8,flat,1.0,7.0,1
+48.0,male,asymptomatic,130.0,256.0,True,2.0,150.0,yes,0.0,upsloping,2.0,7.0,1
+63.0,female,asymptomatic,150.0,407.0,False,2.0,154.0,no,4.0,flat,3.0,7.0,1
+51.0,male,non-anginal pain,100.0,222.0,False,0.0,143.0,yes,1.2,flat,0.0,3.0,0
+55.0,male,asymptomatic,140.0,217.0,False,0.0,111.0,yes,5.6,downsloping,0.0,7.0,1
+65.0,male,typical angina,138.0,282.0,True,2.0,174.0,no,1.4,flat,1.0,3.0,1
+45.0,female,atypical angina,130.0,234.0,False,2.0,175.0,no,0.6,flat,0.0,3.0,0
+56.0,female,asymptomatic,200.0,288.0,True,2.0,133.0,yes,4.0,downsloping,2.0,7.0,1
+54.0,male,asymptomatic,110.0,239.0,False,0.0,126.0,yes,2.8,flat,1.0,7.0,1
+44.0,male,atypical angina,120.0,220.0,False,0.0,170.0,no,0.0,upsloping,0.0,3.0,0
+62.0,female,asymptomatic,124.0,209.0,False,0.0,163.0,no,0.0,upsloping,0.0,3.0,0
+54.0,male,non-anginal pain,120.0,258.0,False,2.0,147.0,no,0.4,flat,0.0,7.0,0
+51.0,male,non-anginal pain,94.0,227.0,False,0.0,154.0,yes,0.0,upsloping,1.0,7.0,0
+29.0,male,atypical angina,130.0,204.0,False,2.0,202.0,no,0.0,upsloping,0.0,3.0,0
+51.0,male,asymptomatic,140.0,261.0,False,2.0,186.0,yes,0.0,upsloping,0.0,3.0,0
+43.0,female,non-anginal pain,122.0,213.0,False,0.0,165.0,no,0.2,flat,0.0,3.0,0
+55.0,female,atypical angina,135.0,250.0,False,2.0,161.0,no,1.4,flat,0.0,3.0,0
+70.0,male,asymptomatic,145.0,174.0,False,0.0,125.0,yes,2.6,downsloping,0.0,7.0,1
+62.0,male,atypical angina,120.0,281.0,False,2.0,103.0,no,1.4,flat,1.0,7.0,1
+35.0,male,asymptomatic,120.0,198.0,False,0.0,130.0,yes,1.6,flat,0.0,7.0,1
+51.0,male,non-anginal pain,125.0,245.0,True,2.0,166.0,no,2.4,flat,0.0,3.0,0
+59.0,male,atypical angina,140.0,221.0,False,0.0,164.0,yes,0.0,upsloping,0.0,3.0,0
+59.0,male,typical angina,170.0,288.0,False,2.0,159.0,no,0.2,flat,0.0,7.0,1
+52.0,male,atypical angina,128.0,205.0,True,0.0,184.0,no,0.0,upsloping,0.0,3.0,0
+64.0,male,non-anginal pain,125.0,309.0,False,0.0,131.0,yes,1.8,flat,0.0,7.0,1
+58.0,male,non-anginal pain,105.0,240.0,False,2.0,154.0,yes,0.6,flat,0.0,7.0,0
+47.0,male,non-anginal pain,108.0,243.0,False,0.0,152.0,no,0.0,upsloping,0.0,3.0,1
+57.0,male,asymptomatic,165.0,289.0,True,2.0,124.0,no,1.0,flat,3.0,7.0,1
+41.0,male,non-anginal pain,112.0,250.0,False,0.0,179.0,no,0.0,upsloping,0.0,3.0,0
+45.0,male,atypical angina,128.0,308.0,False,2.0,170.0,no,0.0,upsloping,0.0,3.0,0
+60.0,female,non-anginal pain,102.0,318.0,False,0.0,160.0,no,0.0,upsloping,1.0,3.0,0
+52.0,male,typical angina,152.0,298.0,True,0.0,178.0,no,1.2,flat,0.0,7.0,0
+42.0,female,asymptomatic,102.0,265.0,False,2.0,122.0,no,0.6,flat,0.0,3.0,0
+67.0,female,non-anginal pain,115.0,564.0,False,2.0,160.0,no,1.6,flat,0.0,7.0,0
+55.0,male,asymptomatic,160.0,289.0,False,2.0,145.0,yes,0.8,flat,1.0,7.0,1
+64.0,male,asymptomatic,120.0,246.0,False,2.0,96.0,yes,2.2,downsloping,1.0,3.0,1
+70.0,male,asymptomatic,130.0,322.0,False,2.0,109.0,no,2.4,flat,3.0,3.0,1
+51.0,male,asymptomatic,140.0,299.0,False,0.0,173.0,yes,1.6,upsloping,0.0,7.0,1
+58.0,male,asymptomatic,125.0,300.0,False,2.0,171.0,no,0.0,upsloping,2.0,7.0,1
+60.0,male,asymptomatic,140.0,293.0,False,2.0,170.0,no,1.2,flat,2.0,7.0,1
+68.0,male,non-anginal pain,118.0,277.0,False,0.0,151.0,no,1.0,upsloping,1.0,7.0,0
+46.0,male,atypical angina,101.0,197.0,True,0.0,156.0,no,0.0,upsloping,0.0,7.0,0
+77.0,male,asymptomatic,125.0,304.0,False,2.0,162.0,yes,0.0,upsloping,3.0,3.0,1
+54.0,female,non-anginal pain,110.0,214.0,False,0.0,158.0,no,1.6,flat,0.0,3.0,0
+58.0,female,asymptomatic,100.0,248.0,False,2.0,122.0,no,1.0,flat,0.0,3.0,0
+48.0,male,non-anginal pain,124.0,255.0,True,0.0,175.0,no,0.0,upsloping,2.0,3.0,0
+57.0,male,asymptomatic,132.0,207.0,False,0.0,168.0,yes,0.0,upsloping,0.0,7.0,0
+52.0,male,non-anginal pain,138.0,223.0,False,0.0,169.0,no,0.0,upsloping,0.0,3.0,0
+54.0,female,atypical angina,132.0,288.0,True,2.0,159.0,yes,0.0,upsloping,1.0,3.0,0
+35.0,male,asymptomatic,126.0,282.0,False,2.0,156.0,yes,0.0,upsloping,0.0,7.0,1
+45.0,female,atypical angina,112.0,160.0,False,0.0,138.0,no,0.0,flat,0.0,3.0,0
+70.0,male,non-anginal pain,160.0,269.0,False,0.0,112.0,yes,2.9,flat,1.0,7.0,1
+53.0,male,asymptomatic,142.0,226.0,False,2.0,111.0,yes,0.0,upsloping,0.0,7.0,0
+59.0,female,asymptomatic,174.0,249.0,False,0.0,143.0,yes,0.0,flat,0.0,3.0,1
+62.0,female,asymptomatic,140.0,394.0,False,2.0,157.0,no,1.2,flat,0.0,3.0,0
+64.0,male,asymptomatic,145.0,212.0,False,2.0,132.0,no,2.0,flat,2.0,6.0,1
+57.0,male,asymptomatic,152.0,274.0,False,0.0,88.0,yes,1.2,flat,1.0,7.0,1
+52.0,male,asymptomatic,108.0,233.0,True,0.0,147.0,no,0.1,upsloping,3.0,7.0,0
+56.0,male,asymptomatic,132.0,184.0,False,2.0,105.0,yes,2.1,flat,1.0,6.0,1
+43.0,male,non-anginal pain,130.0,315.0,False,0.0,162.0,no,1.9,upsloping,1.0,3.0,0
+53.0,male,non-anginal pain,130.0,246.0,True,2.0,173.0,no,0.0,upsloping,3.0,3.0,0
+48.0,male,asymptomatic,124.0,274.0,False,2.0,166.0,no,0.5,flat,0.0,7.0,1
+56.0,female,asymptomatic,134.0,409.0,False,2.0,150.0,yes,1.9,flat,2.0,7.0,1
+42.0,male,typical angina,148.0,244.0,False,2.0,178.0,no,0.8,upsloping,2.0,3.0,0
+59.0,male,typical angina,178.0,270.0,False,2.0,145.0,no,4.2,downsloping,0.0,7.0,0
+60.0,female,asymptomatic,158.0,305.0,False,2.0,161.0,no,0.0,upsloping,0.0,3.0,1
+63.0,female,atypical angina,140.0,195.0,False,0.0,179.0,no,0.0,upsloping,2.0,3.0,0
+42.0,male,non-anginal pain,120.0,240.0,True,0.0,194.0,no,0.8,downsloping,0.0,7.0,0
+66.0,male,atypical angina,160.0,246.0,False,0.0,120.0,yes,0.0,flat,3.0,6.0,1
+54.0,male,atypical angina,192.0,283.0,False,2.0,195.0,no,0.0,upsloping,1.0,7.0,1
+69.0,male,non-anginal pain,140.0,254.0,False,2.0,146.0,no,2.0,flat,3.0,7.0,1
+50.0,male,non-anginal pain,129.0,196.0,False,0.0,163.0,no,0.0,upsloping,0.0,3.0,0
+51.0,male,asymptomatic,140.0,298.0,False,0.0,122.0,yes,4.2,flat,3.0,7.0,1
+43.0,male,asymptomatic,132.0,247.0,True,2.0,143.0,yes,0.1,flat,1.0,7.0,1
+62.0,female,asymptomatic,138.0,294.0,True,0.0,106.0,no,1.9,flat,3.0,3.0,1
+68.0,female,non-anginal pain,120.0,211.0,False,2.0,115.0,no,1.5,flat,0.0,3.0,0
+67.0,male,asymptomatic,100.0,299.0,False,2.0,125.0,yes,0.9,flat,2.0,3.0,1
+69.0,male,typical angina,160.0,234.0,True,2.0,131.0,no,0.1,flat,1.0,3.0,0
+45.0,female,asymptomatic,138.0,236.0,False,2.0,152.0,yes,0.2,flat,0.0,3.0,0
+50.0,female,atypical angina,120.0,244.0,False,0.0,162.0,no,1.1,upsloping,0.0,3.0,0
+59.0,male,typical angina,160.0,273.0,False,2.0,125.0,no,0.0,upsloping,0.0,3.0,1
+50.0,female,asymptomatic,110.0,254.0,False,2.0,159.0,no,0.0,upsloping,0.0,3.0,0
+64.0,female,asymptomatic,180.0,325.0,False,0.0,154.0,yes,0.0,upsloping,0.0,3.0,0
+57.0,male,non-anginal pain,150.0,126.0,True,0.0,173.0,no,0.2,upsloping,1.0,7.0,0
+64.0,female,non-anginal pain,140.0,313.0,False,0.0,133.0,no,0.2,upsloping,0.0,7.0,0
+43.0,male,asymptomatic,110.0,211.0,False,0.0,161.0,no,0.0,upsloping,0.0,7.0,0
+45.0,male,asymptomatic,142.0,309.0,False,2.0,147.0,yes,0.0,flat,3.0,7.0,1
+58.0,male,asymptomatic,128.0,259.0,False,2.0,130.0,yes,3.0,flat,2.0,7.0,1
+50.0,male,asymptomatic,144.0,200.0,False,2.0,126.0,yes,0.9,flat,0.0,7.0,1
+55.0,male,atypical angina,130.0,262.0,False,0.0,155.0,no,0.0,upsloping,0.0,3.0,0
+62.0,female,asymptomatic,150.0,244.0,False,0.0,154.0,yes,1.4,flat,0.0,3.0,1
+37.0,female,non-anginal pain,120.0,215.0,False,0.0,170.0,no,0.0,upsloping,0.0,3.0,0
+38.0,male,typical angina,120.0,231.0,False,0.0,182.0,yes,3.8,flat,0.0,7.0,1
+41.0,male,non-anginal pain,130.0,214.0,False,2.0,168.0,no,2.0,flat,0.0,3.0,0
+66.0,female,asymptomatic,178.0,228.0,True,0.0,165.0,yes,1.0,flat,2.0,7.0,1
+52.0,male,asymptomatic,112.0,230.0,False,0.0,160.0,no,0.0,upsloping,1.0,3.0,1
+56.0,male,typical angina,120.0,193.0,False,2.0,162.0,no,1.9,flat,0.0,7.0,0
+46.0,female,atypical angina,105.0,204.0,False,0.0,172.0,no,0.0,upsloping,0.0,3.0,0
+46.0,female,asymptomatic,138.0,243.0,False,2.0,152.0,yes,0.0,flat,0.0,3.0,0
+64.0,female,asymptomatic,130.0,303.0,False,0.0,122.0,no,2.0,flat,2.0,3.0,0
+59.0,male,asymptomatic,138.0,271.0,False,2.0,182.0,no,0.0,upsloping,0.0,3.0,0
+41.0,female,non-anginal pain,112.0,268.0,False,2.0,172.0,yes,0.0,upsloping,0.0,3.0,0
+54.0,female,non-anginal pain,108.0,267.0,False,2.0,167.0,no,0.0,upsloping,0.0,3.0,0
+39.0,female,non-anginal pain,94.0,199.0,False,0.0,179.0,no,0.0,upsloping,0.0,3.0,0
+53.0,male,asymptomatic,123.0,282.0,False,0.0,95.0,yes,2.0,flat,2.0,7.0,1
+63.0,female,asymptomatic,108.0,269.0,False,0.0,169.0,yes,1.8,flat,2.0,3.0,1
+34.0,female,atypical angina,118.0,210.0,False,0.0,192.0,no,0.7,upsloping,0.0,3.0,0
+47.0,male,asymptomatic,112.0,204.0,False,0.0,143.0,no,0.1,upsloping,0.0,3.0,0
+67.0,female,non-anginal pain,152.0,277.0,False,0.0,172.0,no,0.0,upsloping,1.0,3.0,0
+54.0,male,asymptomatic,110.0,206.0,False,2.0,108.0,yes,0.0,flat,1.0,3.0,1
+66.0,male,asymptomatic,112.0,212.0,False,2.0,132.0,yes,0.1,upsloping,1.0,3.0,1
+52.0,female,non-anginal pain,136.0,196.0,False,2.0,169.0,no,0.1,flat,0.0,3.0,0
+55.0,female,asymptomatic,180.0,327.0,False,1.0,117.0,yes,3.4,flat,0.0,3.0,1
+49.0,male,non-anginal pain,118.0,149.0,False,2.0,126.0,no,0.8,upsloping,3.0,3.0,1
+74.0,female,atypical angina,120.0,269.0,False,2.0,121.0,yes,0.2,upsloping,1.0,3.0,0
+54.0,female,non-anginal pain,160.0,201.0,False,0.0,163.0,no,0.0,upsloping,1.0,3.0,0
+54.0,male,asymptomatic,122.0,286.0,False,2.0,116.0,yes,3.2,flat,2.0,3.0,1
+56.0,male,asymptomatic,130.0,283.0,True,2.0,103.0,yes,1.6,downsloping,0.0,7.0,1
+46.0,male,asymptomatic,120.0,249.0,False,2.0,144.0,no,0.8,upsloping,0.0,7.0,1
+49.0,female,atypical angina,134.0,271.0,False,0.0,162.0,no,0.0,flat,0.0,3.0,0
+42.0,male,atypical angina,120.0,295.0,False,0.0,162.0,no,0.0,upsloping,0.0,3.0,0
+41.0,male,atypical angina,110.0,235.0,False,0.0,153.0,no,0.0,upsloping,0.0,3.0,0
+41.0,female,atypical angina,126.0,306.0,False,0.0,163.0,no,0.0,upsloping,0.0,3.0,0
+49.0,female,asymptomatic,130.0,269.0,False,0.0,163.0,no,0.0,upsloping,0.0,3.0,0
+61.0,male,typical angina,134.0,234.0,False,0.0,145.0,no,2.6,flat,2.0,3.0,1
+60.0,female,non-anginal pain,120.0,178.0,True,0.0,96.0,no,0.0,upsloping,0.0,3.0,0
+67.0,male,asymptomatic,120.0,237.0,False,0.0,71.0,no,1.0,flat,0.0,3.0,1
+58.0,male,asymptomatic,100.0,234.0,False,0.0,156.0,no,0.1,upsloping,1.0,7.0,1
+47.0,male,asymptomatic,110.0,275.0,False,2.0,118.0,yes,1.0,flat,1.0,3.0,1
+52.0,male,asymptomatic,125.0,212.0,False,0.0,168.0,no,1.0,upsloping,2.0,7.0,1
+62.0,male,atypical angina,128.0,208.0,True,2.0,140.0,no,0.0,upsloping,0.0,3.0,0
+57.0,male,asymptomatic,110.0,201.0,False,0.0,126.0,yes,1.5,flat,0.0,6.0,0
+58.0,male,asymptomatic,146.0,218.0,False,0.0,105.0,no,2.0,flat,1.0,7.0,1
+64.0,male,asymptomatic,128.0,263.0,False,0.0,105.0,yes,0.2,flat,1.0,7.0,0
+51.0,female,non-anginal pain,120.0,295.0,False,2.0,157.0,no,0.6,upsloping,0.0,3.0,0
+43.0,male,asymptomatic,115.0,303.0,False,0.0,181.0,no,1.2,flat,0.0,3.0,0
+42.0,female,non-anginal pain,120.0,209.0,False,0.0,173.0,no,0.0,flat,0.0,3.0,0
+67.0,female,asymptomatic,106.0,223.0,False,0.0,142.0,no,0.3,upsloping,2.0,3.0,0
+76.0,female,non-anginal pain,140.0,197.0,False,1.0,116.0,no,1.1,flat,0.0,3.0,0
+70.0,male,atypical angina,156.0,245.0,False,2.0,143.0,no,0.0,upsloping,0.0,3.0,0
+57.0,male,atypical angina,124.0,261.0,False,0.0,141.0,no,0.3,upsloping,0.0,7.0,1
+44.0,female,non-anginal pain,118.0,242.0,False,0.0,149.0,no,0.3,flat,1.0,3.0,0
+58.0,female,atypical angina,136.0,319.0,True,2.0,152.0,no,0.0,upsloping,2.0,3.0,1
+60.0,female,typical angina,150.0,240.0,False,0.0,171.0,no,0.9,upsloping,0.0,3.0,0
+44.0,male,non-anginal pain,120.0,226.0,False,0.0,169.0,no,0.0,upsloping,0.0,3.0,0
+61.0,male,asymptomatic,138.0,166.0,False,2.0,125.0,yes,3.6,flat,1.0,3.0,1
+42.0,male,asymptomatic,136.0,315.0,False,0.0,125.0,yes,1.8,flat,0.0,6.0,1
+52.0,male,asymptomatic,128.0,204.0,True,0.0,156.0,yes,1.0,flat,0.0,3.0,1
+59.0,male,non-anginal pain,126.0,218.0,True,0.0,134.0,no,2.2,flat,1.0,6.0,1
+40.0,male,asymptomatic,152.0,223.0,False,0.0,181.0,no,0.0,upsloping,0.0,7.0,1
+42.0,male,non-anginal pain,130.0,180.0,False,0.0,150.0,no,0.0,upsloping,0.0,3.0,0
+61.0,male,asymptomatic,140.0,207.0,False,2.0,138.0,yes,1.9,upsloping,1.0,7.0,1
+66.0,male,asymptomatic,160.0,228.0,False,2.0,138.0,no,2.3,upsloping,0.0,6.0,0
+46.0,male,asymptomatic,140.0,311.0,False,0.0,120.0,yes,1.8,flat,2.0,7.0,1
+71.0,female,asymptomatic,112.0,149.0,False,0.0,125.0,no,1.6,flat,0.0,3.0,0
+59.0,male,typical angina,134.0,204.0,False,0.0,162.0,no,0.8,upsloping,2.0,3.0,1
+64.0,male,typical angina,170.0,227.0,False,2.0,155.0,no,0.6,flat,0.0,7.0,0
+66.0,female,non-anginal pain,146.0,278.0,False,2.0,152.0,no,0.0,flat,1.0,3.0,0
+39.0,female,non-anginal pain,138.0,220.0,False,0.0,152.0,no,0.0,flat,0.0,3.0,0
+57.0,male,atypical angina,154.0,232.0,False,2.0,164.0,no,0.0,upsloping,1.0,3.0,1
+58.0,female,asymptomatic,130.0,197.0,False,0.0,131.0,no,0.6,flat,0.0,3.0,0
+57.0,male,asymptomatic,110.0,335.0,False,0.0,143.0,yes,3.0,flat,1.0,7.0,1
+47.0,male,non-anginal pain,130.0,253.0,False,0.0,179.0,no,0.0,upsloping,0.0,3.0,0
+55.0,female,asymptomatic,128.0,205.0,False,1.0,130.0,yes,2.0,flat,1.0,7.0,1
+35.0,male,atypical angina,122.0,192.0,False,0.0,174.0,no,0.0,upsloping,0.0,3.0,0
+61.0,male,asymptomatic,148.0,203.0,False,0.0,161.0,no,0.0,upsloping,1.0,7.0,1
+58.0,male,asymptomatic,114.0,318.0,False,1.0,140.0,no,4.4,downsloping,3.0,6.0,1
+58.0,female,asymptomatic,170.0,225.0,True,2.0,146.0,yes,2.8,flat,2.0,6.0,1
+58.0,male,atypical angina,125.0,220.0,False,0.0,144.0,no,0.4,flat,1.0,7.0,0
+56.0,male,atypical angina,130.0,221.0,False,2.0,163.0,no,0.0,upsloping,0.0,7.0,0
+56.0,male,atypical angina,120.0,240.0,False,0.0,169.0,no,0.0,downsloping,0.0,3.0,0
+67.0,male,non-anginal pain,152.0,212.0,False,2.0,150.0,no,0.8,flat,0.0,7.0,1
+55.0,female,atypical angina,132.0,342.0,False,0.0,166.0,no,1.2,upsloping,0.0,3.0,0
+44.0,male,asymptomatic,120.0,169.0,False,0.0,144.0,yes,2.8,downsloping,0.0,6.0,1
+63.0,male,asymptomatic,140.0,187.0,False,2.0,144.0,yes,4.0,upsloping,2.0,7.0,1
+63.0,female,asymptomatic,124.0,197.0,False,0.0,136.0,yes,0.0,flat,0.0,3.0,1
+41.0,male,atypical angina,120.0,157.0,False,0.0,182.0,no,0.0,upsloping,0.0,3.0,0
+59.0,male,asymptomatic,164.0,176.0,True,2.0,90.0,no,1.0,flat,2.0,6.0,1
+57.0,female,asymptomatic,140.0,241.0,False,0.0,123.0,yes,0.2,flat,0.0,7.0,1
+45.0,male,typical angina,110.0,264.0,False,0.0,132.0,no,1.2,flat,0.0,7.0,1
+68.0,male,asymptomatic,144.0,193.0,True,0.0,141.0,no,3.4,flat,2.0,7.0,1
+57.0,male,asymptomatic,130.0,131.0,False,0.0,115.0,yes,1.2,flat,1.0,7.0,1
+57.0,female,atypical angina,130.0,236.0,False,2.0,174.0,no,0.0,flat,1.0,3.0,1
+38.0,male,non-anginal pain,138.0,175.0,False,0.0,173.0,no,0.0,upsloping,0.0,3.0,0
