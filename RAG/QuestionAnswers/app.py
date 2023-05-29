@@ -10,7 +10,7 @@ import streamlit as st
 from streamlit_chat import message
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 model_name = "MBZUAI/LaMini-Flan-T5-783M"
 persist_directory = "../ChromaDB"

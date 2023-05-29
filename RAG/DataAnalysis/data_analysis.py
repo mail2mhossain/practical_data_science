@@ -8,8 +8,8 @@ import streamlit as st
 from streamlit_chat import message
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+os.environ["OPENAI_API_KEY"] = ""
 
 model_name = "MBZUAI/LaMini-Flan-T5-783M"
 

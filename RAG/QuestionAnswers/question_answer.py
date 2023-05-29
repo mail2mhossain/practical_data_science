@@ -5,7 +5,7 @@ from langchain import HuggingFaceHub, HuggingFacePipeline, PromptTemplate, LLMCh
 from langchain.chains import RetrievalQA
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 model_name = "MBZUAI/LaMini-Flan-T5-783M"  # LaMini-Flan-T5-783M  LaMini-GPT-1.5B
 
 persist_directory = "../ChromaDB"

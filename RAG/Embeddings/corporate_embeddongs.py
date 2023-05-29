@@ -22,7 +22,7 @@ from langchain.document_loaders import (
     UnstructuredURLLoader,
 )  # load urls into docoument-loader
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 # Document Loader
 loader = TextLoader("../Documents/KS-all-info_rev1.txt")

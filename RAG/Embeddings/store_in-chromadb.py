@@ -19,7 +19,7 @@ from langchain.chains import RetrievalQA
 
 # load urls into docoument-loader
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 persist_directory = "../ChromaDB"
 docs = []
