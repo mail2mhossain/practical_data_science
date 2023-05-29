@@ -1,0 +1,9 @@
+!pip install langchain
+!pip install huggingface_hub
+!pip install sentence_transformers
+!pip install faiss-cpu
+!pip install unstructured
+!pip install chromadb
+!pip install Cython
+!pip install tiktoken
+!pip install unstructured[local-inference]

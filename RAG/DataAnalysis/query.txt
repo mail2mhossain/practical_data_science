@@ -1,0 +1,3 @@
+Which cuisine type has the highest average cost?
+
+How many restaurant has mofre than 2 orders?
