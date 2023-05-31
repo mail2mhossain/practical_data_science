@@ -1,7 +1,7 @@
 import os
 import glob
 import textwrap
-
+from dotenv import load_dotenv
 
 from langchain.document_loaders import TextLoader  # for textfiles
 from langchain.text_splitter import CharacterTextSplitter  # text splitter
@@ -22,7 +22,8 @@ from langchain.document_loaders import (
     UnstructuredURLLoader,
 )  # load urls into docoument-loader
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+load_dotenv("../.env")
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 # Document Loader
 loader = TextLoader("../Documents/KS-all-info_rev1.txt")

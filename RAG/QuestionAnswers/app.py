@@ -1,4 +1,4 @@
-import pandas as pd
+from dotenv import load_dotenv
 
 from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores import Chroma
@@ -10,10 +10,12 @@ import streamlit as st
 from streamlit_chat import message
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+load_dotenv("../.env")
 
-model_name = "MBZUAI/LaMini-Flan-T5-783M"
-persist_directory = "../ChromaDB"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+
+model_name = os.getenv("LAMINI_783M_MODEL")  # LAMINI_1_5B_MODEL
+persist_directory = os.getenv("CHROMA_DB")
 
 if "prompts" not in st.session_state:
     st.session_state.prompts = []

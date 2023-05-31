@@ -1,14 +1,17 @@
 import os
+from dotenv import load_dotenv
+
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings  # for using HugginFace models
 from langchain import HuggingFaceHub, HuggingFacePipeline, PromptTemplate, LLMChain
 from langchain.chains import RetrievalQA
 
+load_dotenv("../.env")
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
-model_name = "MBZUAI/LaMini-Flan-T5-783M"  # LaMini-Flan-T5-783M  LaMini-GPT-1.5B
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
-persist_directory = "../ChromaDB"
+model_name = os.getenv("LAMINI_783M_PATH")  # LAMINI_1_5B_PATH
+persist_directory = os.getenv("CHROMA_DB")
 
 # Embeddings
 embeddings = HuggingFaceEmbeddings()

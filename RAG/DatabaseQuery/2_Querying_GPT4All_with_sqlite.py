@@ -1,12 +1,15 @@
 import os
+from dotenv import load_dotenv
+
 from langchain import SQLDatabase, SQLDatabaseChain
 from langchain import PromptTemplate
 from langchain.llms import GPT4All
 from langchain import HuggingFaceHub
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
+load_dotenv("../.env")
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 model_name = "MBZUAI/LaMini-Flan-T5-783M"  # LaMini-Flan-T5-783M  LaMini-GPT-1.5B
 
 local_path = (
@@ -37,6 +40,19 @@ Only use the following tables:
 {table_info}
 
 Question: {input}"""
+
+# Create db chain
+QUERY = """
+Given an input question, first create a syntactically correct postgresql query to run, then look at the results of the query and return the answer.
+Use the following format:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Question: {question}
+"""
 
 PROMPT = PromptTemplate(
     input_variables=["input", "table_info"], template=_DEFAULT_TEMPLATE

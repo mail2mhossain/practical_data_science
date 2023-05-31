@@ -1,6 +1,5 @@
 import os
 import glob
-import textwrap
 
 from langchain.vectorstores import Chroma
 from langchain.document_loaders import TextLoader  # for textfiles
@@ -12,14 +11,7 @@ from langchain.vectorstores import (
     FAISS,
 )  # facebook vectorizationfrom langchain.chains.question_answering import load_qa_chain
 from langchain.document_loaders import UnstructuredPDFLoader  # load pdf
-from langchain.indexes import (
-    VectorstoreIndexCreator,
-)  # vectorize db index with chromadb
-from langchain.chains import RetrievalQA
 
-# load urls into docoument-loader
-
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 persist_directory = "../ChromaDB"
 docs = []
@@ -46,11 +38,11 @@ pdf_docs = [
 ]
 docs.extend(pdf_docs)
 
-for fn in pdf_files:
-    loader = UnstructuredPDFLoader(fn)
-    documents = loader.load()
-    documents = text_splitter.split_documents(documents)
-    docs.extend(documents)
+# for fn in pdf_files:
+#     loader = UnstructuredPDFLoader(fn)
+#     documents = loader.load()
+#     documents = text_splitter.split_documents(documents)
+#     docs.extend(documents)
 
 
 # Initialize PeristedChromaDB
